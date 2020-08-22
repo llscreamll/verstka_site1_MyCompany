@@ -1,0 +1,442 @@
+*{
+margin: 0;
+padding: 0;
+}
+a{
+text-decoration: none;
+}
+li{
+list-style: none;
+}
+body{
+font-family: 'Coming Soon', cursive;
+}
+
+header{
+background-color: black;
+width: 100%;
+display: flex;
+padding-bottom: 5px;
+}
+.header_logo{
+text-transform: uppercase;
+font-size: 24px;
+color: #fff;
+font-weight: 800;
+cursor: pointer;
+margin-top: 56px;
+margin-left: 12%;
+}
+
+nav{
+margin-top: 56px;
+margin-left: 29%;
+}
+.topnav a{
+color: #fff;
+text-align: center;
+padding: 12px 16px;
+font-style: 14px;
+font-weight: bold;
+}
+
+.topnav a:hover{
+color: #fcac45 ;
+border-bottom: 3px solid #fcac45;
+}
+
+.topnav .icon {
+display: none;
+}
+.mw-100{
+min-width: 100%;
+}
+main .about_right{
+margin-left: 175px;
+}
+main{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+main .main_welcome{
+background: #000;
+text-align: center;
+color: #d5d5d5;
+padding-top: 200px;
+padding-bottom: 410px;
+}
+
+.main_welcome p {
+color: #d5d5d5;
+font-size: 20px;
+}
+.main_welcome h1 {
+color: #d5d5d5;
+font-size: 44px;
+}
+.main_welcome h1::after{
+display: none;
+}
+.mycompany{
+color: #fcac45;
+}
+
+.wrapper {
+width: 76%;
+margin: 0 auto;
+}
+main .main_about{
+display: flex;
+padding: 100px 0 100px 0;
+}
+
+main .about_left{
+width: 50%;
+}
+main .about_right{
+width: 50%;
+}
+
+.about_right h1{
+text-align: center;
+display: inline-block;
+border-bottom: 3px solid #fcac45;
+padding-bottom: 20px;
+}
+.about_right h1::after{
+display: none;
+}
+.about_right p {
+margin: 30px 0 50px 0;
+color: #909090;
+
+}
+.about_right li{
+background: url(../img/tk.png) 0px no-repeat;
+padding-left: 25px;
+margin-top: 10px;
+}
+.main_welcome b{
+color: #fff;
+}
+.main_team{
+background: black;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 165px;
+color: #fff;
+}
+.main_team h1{
+font-size: 44px;
+padding-bottom: 30px;
+}
+.photo{
+background:gray;
+width: 125px;
+height: 125px;
+border-radius: 50%;
+margin: 20px auto;
+
+}
+.team_cards{
+display: flex;
+}
+.name{
+font-size: 20px;
+margin-bottom: 7px;
+}
+.position {
+font-size: 16px;
+margin-bottom: 30px;
+}
+.about_position{
+font-size: 14px;
+}
+
+.card{
+margin: 0 40px;
+}
+
+.services_cards{
+text-align: center;
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-column-gap : 20px;
+}
+.main_services h1 {
+text-align: center;
+padding: 100px 0 30px 0;
+font-size: 44px;
+}
+
+.main_services p {
+color: #6c6c6c;
+margin-bottom: 100px;
+}
+.services_card h4{
+margin-top: 20px;
+margin-bottom: 15px;
+font-size: 25px;
+
+}
+.main_clients{
+padding: 100px 0 205px 0;
+background: black;
+text-align: center;
+}
+.main_clients h1{
+color: white;
+font-size: 44px;
+margin-bottom: 30px;
+}
+.main_clients img{
+margin-left: 30px;
+margin-top: 10px;
+}
+.main_clients span {
+font-weight: 500;
+}
+
+.main_testimonials{
+background: #000;
+text-align: center;
+color: white;
+padding-bottom: 170px;
+}
+.main_testimonials .testimonialsP {
+text-transform: uppercase;
+margin-bottom: 50px;
+font-size: 18px;
+}
+.main_testimonials h1{
+text-transform: uppercase;
+margin-top: 100px;
+margin-bottom: 30px;
+font-size: 44px;
+}
+.main_testimonials .testimonials{
+color: #aaa;
+font-size: 18px;
+}
+.main_work{
+text-align: center;
+padding: 100px 0 100px 0;
+}
+.main_work h1 {
+margin-bottom: 30px;
+font-size: 44px;
+} 
+.main_work p {
+margin-bottom: 175px;
+color: #6c6c6c;
+font-size: 18px;
+} 
+.main_work img:hover{
+opacity: 0.9;
+}
+.main_work span {
+font-weight: 500;
+}
+.contact_wrapper{
+width: 753px;
+margin: 0 auto;
+color:#636363 ;
+}
+
+.red{
+color: red;
+}
+.form_inputs{
+margin-top: 100px;
+display: flex;
+}
+input {
+width: 360px;
+height: 40px;
+font-size: 20px;
+margin-bottom: 30px;
+
+}
+input:first-of-type{
+margin-right: 23px;
+}
+textarea {
+width: 100%;
+height: 163px;
+}
+
+input , textarea {
+border: 1px solid #999;
+margin-top: 5px;
+}
+.button_block{
+display: flex;
+justify-content: flex-end;
+}
+.button_block input{
+width: 165px;
+height: 40px;
+background: #fcac45;
+color: white;
+margin-right: 0;
+margin-top: 20px;
+}
+.contact_form{
+color: black;
+padding: 100px 0 100px 0 ;
+}
+.contact_form h1{
+margin-bottom: 30px;
+font-size: 44px;
+text-align: center;
+}
+
+h1:after{
+content: "";
+display: block;
+margin: 0 auto;
+width: 100px;
+padding-top: 30px;
+border-bottom: 3px solid #fcac45;
+}
+footer{
+width: 100%;
+height: auto;
+background: #222222;
+padding-top: 30px;
+}
+.social .wrapper{
+display: flex;
+justify-content: center;
+}
+.social img{
+margin-left: 12px;
+}
+.social img:hover{
+opacity: 0.6;
+}
+.gallery{
+display: flex;
+justify-content: space-around;
+}
+
+@media screen and (max-width: 1428px ){
+nav{
+margin-left: 20%;
+}
+}
+
+@media screen and (max-width: 1242px ){
+nav{
+margin-left: 10%;
+}
+}
+@media screen and (max-width: 1085px ){
+nav{
+margin-left: 5%;
+}
+}
+
+@media screen and (max-width: 1021px ){
+.topnav a{
+display: none;
+}
+.topnav a.icon{
+float: right;
+margin-top: -17px;
+display: block;
+color: #fff;
+font-size: 40px;
+}
+nav{
+width: 100%;
+}
+.topnav.responsive{
+position: relative;
+top: 50px;
+left: -100px;
+}
+header .topnav.responsive{
+height: 340px;
+}
+.topnav.responsive a.icon{
+position: absolute;
+top: -50px;
+right: -100px;
+}
+.topnav.responsive a{
+float: none;
+display: block;
+text-align: left;
+
+}
+main .main_welcome{
+padding: 50px 0 50px 0;
+}
+main .main_welcome p {
+font-size: 14px;
+}
+main .main_welcome h1 {
+font-size: 25px;
+}
+.mw-100{
+max-width: 100%;
+}
+.main_about{
+flex-direction: column;
+}
+main .about_right{
+text-align: center;
+margin-left: 0;
+}
+.about_right li {
+text-align: left;
+}
+.about_right h1{
+font-size: 20px;
+margin-top: 10px;
+}
+main .about_left{
+width: 100%;
+}
+main .about_right{
+width: 100%;
+}
+
+
+.team_cards{
+flex-direction: column;
+}
+
+.services_cards {
+grid-template-columns: auto;
+}
+.main_clients img{
+margin-top: 20px;
+
+}
+.form_inputs{
+flex-wrap: wrap;
+
+}
+.contact_wrapper{
+width: 80%;
+margin: 0 auto;
+}
+.form_inputs #name,.form_inputs #email {
+width: 80%;
+}
+
+input {
+width: 100%;
+height: 40px;
+font-size: 20px;
+margin-bottom: 30px;
+}
+
+.gallery{
+flex-wrap: wrap;
+}
+
+}
